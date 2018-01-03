@@ -3,7 +3,10 @@ import Keyboard from'./Keyboard.js'
 dom.head(
     dom.style(`
         body>.main{
-            max-width:600px;
+            max-width:1000px;
+            margin:0 auto;
+        }
+        body>.main>.keyboard{
             margin:0 auto;
         }
         ${Keyboard.style}
@@ -12,7 +15,7 @@ dom.head(
 let keyboard=new Keyboard
 dom.body(
     dom.div({className:'main'},
-        dom.div('This program tests a keyboard and its environment.'),
+        dom.p('This program tests a keyboard and its environment.'),
         keyboard.node,
     ),
 )
