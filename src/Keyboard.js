@@ -34,6 +34,15 @@ function Keyboard(){
         0:{
             0:dom.div({className:'key normal num0'},'0'),
         },
+        '-':{
+            0:dom.div({className:'key normal minus'},'-'),
+        },
+        '=':{
+            0:dom.div({className:'key normal equal'},'='),
+        },
+        Backspace:{
+            0:dom.div({className:'key normal backspace'},'←'),
+        },
     }
     this.node=dom.div({className:'keyboard'},
         dom.div({className:'table'},
@@ -78,9 +87,9 @@ function Keyboard(){
                         this._keyNodes[8][0],
                         this._keyNodes[9][0],
                         this._keyNodes[0][0],
-                        dom.div({className:'key normal minus'},'-'),
-                        dom.div({className:'key normal plus'},'+'),
-                        dom.div({className:'key normal backSpace'},'←'),
+                        this._keyNodes['-'][0],
+                        this._keyNodes['='][0],
+                        this._keyNodes.Backspace[0],
                     ),
                 ),
                 dom.div({className:'cell'},
@@ -95,11 +104,22 @@ function Keyboard(){
         ),
     )
 }
+Keyboard.prototype._key=function(){
+    let now=new Date
+    if(this._lastKey)
+        console.log(now-this._lastKey)
+    this._lastKey=now
+}
 Keyboard.prototype.keydown=function(e){
+    this._key()
     if(this._keyNodes[e.key]&&this._keyNodes[e.key][e.location])
         this._keyNodes[e.key][e.location].classList.add('keydown')
+    else{
+        //console.log(e.key,e.location)
+    }
 }
 Keyboard.prototype.keyup=function(e){
+    this._key()
     if(this._keyNodes[e.key]&&this._keyNodes[e.key][e.location])
         this._keyNodes[e.key][e.location].classList.remove('keydown')
 }
