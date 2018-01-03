@@ -173,8 +173,8 @@ function Keyboard(){
             0:dom.div({className:'key enter'},'ENT'),
         },
         'Shift':{
-            1:dom.div({className:'key shift'},'⇧'),
-            2:dom.div({className:'key shift'},'⇧'),
+            1:dom.div({className:'key shift0'},'⇧'),
+            2:dom.div({className:'key shift1'},'⇧'),
         },
         'z':{
             0:dom.div({className:'key z'},'Z'),
@@ -338,6 +338,19 @@ Keyboard.prototype._lowerKey=function(k){
         ')':'0',
         '_':'-',
         '+':'=',
+        'Q':'q',
+        'W':'w',
+        'E':'e',
+        'R':'r',
+        'T':'t',
+        'Y':'y',
+        'U':'u',
+        'I':'i',
+        'O':'o',
+        'P':'p',
+        '{':'[',
+        '}':']',
+        '|':'\\',
     }
     return keys[k]||k
 }
@@ -426,8 +439,11 @@ Keyboard.style=`
     .keyboard .key.enter{
         width:calc(39px * var(--scale));
     }
-    .keyboard .key.shift{
-        width:calc(43px * var(--scale));
+    .keyboard .key.shift0{
+        width:calc(39px * var(--scale));
+    }
+    .keyboard .key.shift1{
+        width:calc(47px * var(--scale));
     }
 `
 export default Keyboard
