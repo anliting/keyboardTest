@@ -133,6 +133,79 @@ function Keyboard(){
         '\\':{
             0:dom.div({className:'key backslash'},'\\'),
         },
+        'CapsLock':{
+            0:dom.div({className:'key capsLock'},'CL'),
+        },
+        'a':{
+            0:dom.div({className:'key a'},'A'),
+        },
+        's':{
+            0:dom.div({className:'key s'},'S'),
+        },
+        'd':{
+            0:dom.div({className:'key d'},'D'),
+        },
+        'f':{
+            0:dom.div({className:'key f'},'F'),
+        },
+        'g':{
+            0:dom.div({className:'key g'},'G'),
+        },
+        'h':{
+            0:dom.div({className:'key h'},'H'),
+        },
+        'j':{
+            0:dom.div({className:'key j'},'J'),
+        },
+        'k':{
+            0:dom.div({className:'key k'},'K'),
+        },
+        'l':{
+            0:dom.div({className:'key l'},'L'),
+        },
+        ';':{
+            0:dom.div({className:'key semicolon'},';'),
+        },
+        '\'':{
+            0:dom.div({className:'key apostrophe'},'\''),
+        },
+        'Enter':{
+            0:dom.div({className:'key enter'},'ENT'),
+        },
+        'Shift':{
+            1:dom.div({className:'key shift'},'⇧'),
+            2:dom.div({className:'key shift'},'⇧'),
+        },
+        'z':{
+            0:dom.div({className:'key z'},'Z'),
+        },
+        'x':{
+            0:dom.div({className:'key x'},'X'),
+        },
+        'c':{
+            0:dom.div({className:'key c'},'C'),
+        },
+        'v':{
+            0:dom.div({className:'key v'},'V'),
+        },
+        'b':{
+            0:dom.div({className:'key b'},'B'),
+        },
+        'n':{
+            0:dom.div({className:'key n'},'N'),
+        },
+        'm':{
+            0:dom.div({className:'key m'},'M'),
+        },
+        ',':{
+            0:dom.div({className:'key comma'},','),
+        },
+        '.':{
+            0:dom.div({className:'key fullStop'},'.'),
+        },
+        '/':{
+            0:dom.div({className:'key slash'},'/'),
+        },
     }
     this.node=dom.div({className:'keyboard'},
         dom.div({className:'table'},
@@ -202,6 +275,35 @@ function Keyboard(){
                         this._keyNodes[']'][0],
                         this._keyNodes['\\'][0],
                     ),
+                    dom.div({className:'row'},
+                        this._keyNodes.CapsLock[0],
+                        this._keyNodes.a[0],
+                        this._keyNodes.s[0],
+                        this._keyNodes.d[0],
+                        this._keyNodes.f[0],
+                        this._keyNodes.g[0],
+                        this._keyNodes.h[0],
+                        this._keyNodes.j[0],
+                        this._keyNodes.k[0],
+                        this._keyNodes.l[0],
+                        this._keyNodes[';'][0],
+                        this._keyNodes['\''][0],
+                        this._keyNodes.Enter[0],
+                    ),
+                    dom.div({className:'row'},
+                        this._keyNodes.Shift[1],
+                        this._keyNodes.z[0],
+                        this._keyNodes.x[0],
+                        this._keyNodes.c[0],
+                        this._keyNodes.v[0],
+                        this._keyNodes.b[0],
+                        this._keyNodes.n[0],
+                        this._keyNodes.m[0],
+                        this._keyNodes[','][0],
+                        this._keyNodes['.'][0],
+                        this._keyNodes['/'][0],
+                        this._keyNodes.Shift[2],
+                    ),
                 ),
                 dom.div(
                     dom.div({className:'navigation'},
@@ -221,18 +323,37 @@ Keyboard.prototype._key=function(){
         console.log(now-this._lastKey)*/
     this._lastKey=now
 }
+Keyboard.prototype._lowerKey=function(k){
+    let keys={
+        '~':'`',
+        '!':'1',
+        '@':'2',
+        '#':'3',
+        '$':'4',
+        '%':'5',
+        '^':'6',
+        '&':'7',
+        '*':'8',
+        '(':'9',
+        ')':'0',
+        '_':'-',
+        '+':'=',
+    }
+    return keys[k]||k
+}
 Keyboard.prototype.keydown=function(e){
     this._key()
-    if(this._keyNodes[e.key]&&this._keyNodes[e.key][e.location])
-        this._keyNodes[e.key][e.location].classList.add('keydown')
-    else{
-        console.log(e.key,e.location)
-    }
+    let key=this._lowerKey(e.key)
+    if(this._keyNodes[key]&&this._keyNodes[key][e.location])
+        this._keyNodes[key][e.location].classList.add('keydown')
+    else
+        console.log(key,e.location)
 }
 Keyboard.prototype.keyup=function(e){
     this._key()
-    if(this._keyNodes[e.key]&&this._keyNodes[e.key][e.location])
-        this._keyNodes[e.key][e.location].classList.remove('keydown')
+    let key=this._lowerKey(e.key)
+    if(this._keyNodes[key]&&this._keyNodes[key][e.location])
+        this._keyNodes[key][e.location].classList.remove('keydown')
 }
 Keyboard.style=`
     .keyboard{
@@ -285,19 +406,28 @@ Keyboard.style=`
         margin-left:calc(20px * var(--scale));
     }
     .keyboard .key.f5{
-        margin-left:calc(10px * var(--scale));
+        margin-left:calc(12px * var(--scale));
     }
     .keyboard .key.f9{
         margin-left:calc(10px * var(--scale));
     }
     .keyboard .key.backspace{
-        width:calc(32px * var(--scale));
+        width:calc(34px * var(--scale));
     }
     .keyboard .key.tab{
-        width:calc(24px * var(--scale));
+        width:calc(25px * var(--scale));
     }
     .keyboard .key.backslash{
-        width:calc(24px * var(--scale));
+        width:calc(25px * var(--scale));
+    }
+    .keyboard .key.capsLock{
+        width:calc(29px * var(--scale));
+    }
+    .keyboard .key.enter{
+        width:calc(39px * var(--scale));
+    }
+    .keyboard .key.shift{
+        width:calc(43px * var(--scale));
     }
 `
 export default Keyboard

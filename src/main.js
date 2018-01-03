@@ -2,9 +2,18 @@ import{dom}from 'https://gitcdn.link/cdn/anliting/simple.js/55124630741399dd0fcb
 import Keyboard from'./Keyboard.js'
 dom.head(
     dom.style(`
+        body{
+            margin:0;
+            background-color:#eee;
+        }
         body>.main{
-            max-width:1000px;
+            overflow-y:auto;
+            box-sizing:border-box;
             margin:0 auto;
+            min-height:100vh;
+            max-width:1000px;
+            padding:8px;
+            background-color:#fff;
         }
         body>.main>.keyboard{
             margin:0 auto;
