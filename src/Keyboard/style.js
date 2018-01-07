@@ -16,7 +16,7 @@ export default`
     .keyboard>.table>*>*{
         display:table-cell;
     }
-    .keyboard>.table>*>:nth-child(2){
+    .keyboard>.table>*>:nth-child(2),.keyboard>.table>*>:nth-child(3){
         padding-left:calc(8px * var(--scale));
     }
     .keyboard>.table>:nth-child(1)>*{
@@ -80,5 +80,8 @@ export default`
     }
     .keyboard .key.space{
         width:calc(114px * var(--scale));
+    }
+    .keyboard .key.arrowUp{
+        margin-left:calc(18px * var(--scale));
     }
 `

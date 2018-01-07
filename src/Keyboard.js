@@ -15,15 +15,14 @@ Keyboard.prototype._key=function(){
 }
 Keyboard.prototype.keydown=function(e){
     this._key()
-    let key=lowerKey(e.key)
+    let key=lowerKey(e.key,e.location)
     if(this._keyNodes[key]&&this._keyNodes[key][e.location])
         this._keyNodes[key][e.location].classList.add('keydown')
-    else
-        console.log(key,e.location)
+    console.log(key,e.location)
 }
 Keyboard.prototype.keyup=function(e){
     this._key()
-    let key=lowerKey(e.key)
+    let key=lowerKey(e.key,e.location)
     if(this._keyNodes[key]&&this._keyNodes[key][e.location])
         this._keyNodes[key][e.location].classList.remove('keydown')
 }

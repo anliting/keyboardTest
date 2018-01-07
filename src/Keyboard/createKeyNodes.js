@@ -84,6 +84,7 @@ function createKeyNodes(){
         },
         '-':{
             0:dom.div({className:'key minus'},'-'),
+            3:dom.div({className:'key minus'},'-'),
         },
         '=':{
             0:dom.div({className:'key equal'},'='),
@@ -205,6 +206,7 @@ function createKeyNodes(){
         },
         '/':{
             0:dom.div({className:'key slash'},'/'),
+            3:dom.div({className:'key slash'},'/'),
         },
         'Control':{
             1:dom.div({className:'key wide125 ctrl'},'CTRL'),
@@ -223,6 +225,42 @@ function createKeyNodes(){
         },
         'ContextMenu':{
             0:dom.div({className:'key wide125 menu'},'MENU'),
+        },
+        'Insert':{
+            0:dom.div({className:'key insert'},'INS'),
+        },
+        'Home':{
+            0:dom.div({className:'key home'},'HM'),
+        },
+        'PageUp':{
+            0:dom.div({className:'key pageUp'},'PU'),
+        },
+        'Delete':{
+            0:dom.div({className:'key delete'},'DEL'),
+        },
+        'End':{
+            0:dom.div({className:'key end'},'END'),
+        },
+        'PageDown':{
+            0:dom.div({className:'key pageDown'},'PD'),
+        },
+        'ArrowUp':{
+            0:dom.div({className:'key arrowUp'},'↑'),
+        },
+        'ArrowLeft':{
+            0:dom.div({className:'key arrowLeft'},'←'),
+        },
+        'ArrowDown':{
+            0:dom.div({className:'key arrowDown'},'↓'),
+        },
+        'ArrowRight':{
+            0:dom.div({className:'key arrowRight'},'→'),
+        },
+        'NumLock':{
+            0:dom.div({className:'key numLock'},'NL'),
+        },
+        '*':{
+            3:dom.div({className:'key asterisk'},'*'),
         },
     }
 }
