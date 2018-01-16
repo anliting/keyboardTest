@@ -54,33 +54,43 @@ function createKeyNodes(){
         },
         1:{
             0:dom.div({className:'key num1'},'1'),
+            3:dom.div({className:'key num1'},'1'),
         },
         2:{
             0:dom.div({className:'key num2'},'2'),
+            3:dom.div({className:'key num2'},'2'),
         },
         3:{
             0:dom.div({className:'key num3'},'3'),
+            3:dom.div({className:'key num3'},'3'),
         },
         4:{
             0:dom.div({className:'key num4'},'4'),
+            3:dom.div({className:'key num4'},'4'),
         },
         5:{
             0:dom.div({className:'key num5'},'5'),
+            3:dom.div({className:'key num5'},'5'),
         },
         6:{
             0:dom.div({className:'key num6'},'6'),
+            3:dom.div({className:'key num6'},'6'),
         },
         7:{
             0:dom.div({className:'key num7'},'7'),
+            3:dom.div({className:'key num7'},'7'),
         },
         8:{
             0:dom.div({className:'key num8'},'8'),
+            3:dom.div({className:'key num8'},'8'),
         },
         9:{
             0:dom.div({className:'key num9'},'9'),
+            3:dom.div({className:'key num9'},'9'),
         },
         0:{
             0:dom.div({className:'key num0'},'0'),
+            3:dom.div({className:'key num0'},'0'),
         },
         '-':{
             0:dom.div({className:'key minus'},'-'),
@@ -172,6 +182,7 @@ function createKeyNodes(){
         },
         'Enter':{
             0:dom.div({className:'key enter'},'ENT'),
+            3:dom.div({className:'key enter'},'ENT'),
         },
         'Shift':{
             1:dom.div({className:'key shift0'},'⇧'),
@@ -203,6 +214,7 @@ function createKeyNodes(){
         },
         '.':{
             0:dom.div({className:'key fullStop'},'.'),
+            3:dom.div({className:'key fullStop'},'.'),
         },
         '/':{
             0:dom.div({className:'key slash'},'/'),
@@ -262,6 +274,9 @@ function createKeyNodes(){
         '*':{
             3:dom.div({className:'key asterisk'},'*'),
         },
+        '+':{
+            3:dom.div({className:'key plus'},'+'),
+        }
     }
 }
 export default createKeyNodes

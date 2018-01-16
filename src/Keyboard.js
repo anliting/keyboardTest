@@ -9,8 +9,8 @@ function Keyboard(){
 }
 Keyboard.prototype._key=function(){
     let now=new Date
-    /*if(this._lastKey)
-        console.log(now-this._lastKey)*/
+    if(this._lastKey)
+        console.log(now-this._lastKey)
     this._lastKey=now
 }
 Keyboard.prototype.keydown=function(e){
@@ -18,7 +18,6 @@ Keyboard.prototype.keydown=function(e){
     let key=lowerKey(e.key,e.location)
     if(this._keyNodes[key]&&this._keyNodes[key][e.location])
         this._keyNodes[key][e.location].classList.add('keydown')
-    console.log(key,e.location)
 }
 Keyboard.prototype.keyup=function(e){
     this._key()
