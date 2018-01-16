@@ -37,7 +37,28 @@ function lowerKey(k,l){
         'L':{0:'l'},
         ':':{0:';'},
         '"':{0:'\''},
+        'Z':{0:'z'},
+        'X':{0:'x'},
+        'C':{0:'c'},
+        'V':{0:'v'},
+        'B':{0:'b'},
+        'N':{0:'n'},
+        'M':{0:'m'},
+        '<':{0:','},
+        '>':{0:'.'},
+        '?':{0:'/'},
+        'Home':                 {3:'7'},
+        'ArrowUp':              {3:'8'},
+        'PageUp':               {3:'9'},
+        'ArrowLeft':            {3:'4'},
+        'Clear':                {3:'5'},
+        'ArrowRight':           {3:'6'},
+        'End':                  {3:'1'},
+        'ArrowDown':            {3:'2'},
+        'PageDown':             {3:'3'},
+        'Insert':               {3:'0'},
     }
+    keys[String.fromCharCode(0)]={3:'.'}
     return keys[k]&&keys[k][l]||k
 }
 export default lowerKey
