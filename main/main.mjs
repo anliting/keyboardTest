@@ -1,7 +1,7 @@
-import{dom}from 'https://gitcdn.link/cdn/anliting/simple.js/55124630741399dd0fcbee2f0396642a428cdd24/src/simple.static.js'
+import doe from '../lib/doe/dist/doe.mjs'
 import Keyboard from'./Keyboard.js'
-dom.head(
-    dom.style(`
+doe.head(
+    doe.style(`
         body{
             margin:0;
             background-color:#eee;
@@ -22,9 +22,9 @@ dom.head(
     `)
 )
 let keyboard=new Keyboard
-dom.body(
-    dom.div({className:'main'},
-        dom.p('This program tests a keyboard and its environment.'),
+doe.body(
+    doe.div({className:'main'},
+        doe.p('This program tests a keyboard and its environment.'),
         keyboard.node,
     ),
 )

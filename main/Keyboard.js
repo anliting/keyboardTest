@@ -1,4 +1,3 @@
-import{dom}from'https://gitcdn.link/cdn/anliting/simple.js/55124630741399dd0fcbee2f0396642a428cdd24/src/simple.static.js'
 import style from './Keyboard/style.js'
 import createKeyNodes from './Keyboard/createKeyNodes.js'
 import lowerKey from './Keyboard/lowerKey.js'
