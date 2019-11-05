@@ -30,6 +30,9 @@ export default`
     .keyboard>.table>*>*>.row{
         height:calc(18px * var(--scale));
     }
+    .keyboard>.table>*>*>.row>*{
+        vertical-align:top;
+    }
     .keyboard>.table>*>.function .key+.key,
     .keyboard>.table>*>.legacy .key+.key,
     .keyboard>.table>*>.main .key+.key,
