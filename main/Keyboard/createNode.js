@@ -1,4 +1,4 @@
-import doe from '../../lib/doe/dist/doe.mjs'
+import doe from '../../lib/doe/main/doe.mjs'
 function createNode(keyNodes){
     return doe.div({className:'keyboard'},
         doe.div({className:'table'},
@@ -31,8 +31,7 @@ function createNode(keyNodes){
                         keyNodes.Pause[0],
                     ),
                 ),
-                doe.div(
-                ),
+                doe.div(),
             ),
             doe.div(
                 doe.div({className:'main'},

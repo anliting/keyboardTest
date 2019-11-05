@@ -1,10 +1,10 @@
-import doe from '../lib/doe/dist/doe.mjs'
+import doe from '../lib/doe/main/doe.mjs'
 import Keyboard from'./Keyboard.js'
 doe.head(
     doe.style(`
         body{
             margin:0;
-            background-color:#eee;
+            background-color:#888;
         }
         body>.main{
             overflow-y:auto;
@@ -25,6 +25,7 @@ let keyboard=new Keyboard
 doe.body(
     doe.div({className:'main'},
         doe.p('This program tests a keyboard and its environment.'),
+        doe.p('Common QWERTY keyboard layout (US):'),
         keyboard.node,
     ),
 )

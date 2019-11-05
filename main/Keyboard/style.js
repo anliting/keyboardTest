@@ -15,6 +15,7 @@ export default`
     }
     .keyboard>.table>*>*{
         display:table-cell;
+        vertical-align:top;
     }
     .keyboard>.table>*>:nth-child(2),.keyboard>.table>*>:nth-child(3){
         padding-left:calc(8px * var(--scale));
