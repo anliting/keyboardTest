@@ -30,6 +30,9 @@ export default`
     .keyboard>.table>*>*>.row{
         height:calc(16px * var(--scale));
     }
+    .keyboard>.table>*>*>.row>*{
+        vertical-align:top;
+    }
     .keyboard .key{
         display:inline-block;
         border-radius:1px;
