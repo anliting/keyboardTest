@@ -4,7 +4,6 @@ doe.head(
     doe.style(`
         body{
             margin:0;
-            background-color:#888;
         }
         body>.main{
             overflow-y:auto;
