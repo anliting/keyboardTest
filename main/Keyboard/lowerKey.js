@@ -57,7 +57,7 @@ let keys={
     'PageDown':     {3:'3'},
     'Insert':       {3:'0'},
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1232918
-    'OS':           {1:'Meta'},
+    'OS':           {1:'Meta',2:'Meta'},
 }
 keys[String.fromCharCode(0)]={3:'.'}
 function lowerKey(k,l){
