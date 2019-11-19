@@ -26,6 +26,9 @@ doe.body(
         doe.p('This program tests a keyboard and its environment.'),
         doe.p('Common QWERTY keyboard layout (US):'),
         keyboard.node,
+        doe.p(
+            doe.a({href:'https://anliting.com/keyboardTest'},'Readme'),
+        ),
     ),
 )
 onkeydown=e=>{
@@ -37,4 +40,12 @@ onkeyup=e=>{
     e.preventDefault()
     e.stopPropagation()
     keyboard.keyup(e)
+}
+/*
+    The context menu is triggered even if all onkeydown are
+    'preventDefault'ed. I don't know why.
+*/
+oncontextmenu=e=>{
+    e.preventDefault()
+    e.stopPropagation()
 }
