@@ -6,6 +6,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 0 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'ESC'),
         },
@@ -14,6 +16,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 2 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F1'),
         },
@@ -22,6 +26,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 3 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F2'),
         },
@@ -30,6 +36,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 4 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F3'),
         },
@@ -38,6 +46,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 5 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F4'),
         },
@@ -46,6 +56,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 6.5 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F5'),
         },
@@ -54,6 +66,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 7.5 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F6'),
         },
@@ -62,6 +76,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 8.5 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F7'),
         },
@@ -70,6 +86,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 9.5 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F8'),
         },
@@ -78,6 +96,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 11 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F9'),
         },
@@ -86,6 +106,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 12 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F10'),
         },
@@ -94,6 +116,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 13 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F11'),
         },
@@ -102,6 +126,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 14 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'F12'),
         },
@@ -110,6 +136,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 15.25 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'PS'),
         },
@@ -118,6 +146,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 16.25 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'SL'),
         },
@@ -126,6 +156,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 17.25 * var(--scale))',
+                    bottom: 'calc(16px * 5.25 * var(--scale))',
                 })
             },'PB'),
         },
@@ -134,6 +166,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 0 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'`')
         },
@@ -142,12 +176,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 1 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'1'),
             3:doe.div({className:'key num1'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 18.5 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'1'),
         },
@@ -156,12 +194,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 2 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'2'),
             3:doe.div({className:'key num2'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 19.5 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'2'),
         },
@@ -170,12 +212,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 3 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'3'),
             3:doe.div({className:'key num3'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 20.5 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'3'),
         },
@@ -184,12 +230,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 4 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'4'),
             3:doe.div({className:'key num4'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 18.5 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'4'),
         },
@@ -198,12 +248,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 5 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'5'),
             3:doe.div({className:'key num5'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 19.5 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'5'),
         },
@@ -212,12 +266,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 6 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'6'),
             3:doe.div({className:'key num6'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 20.5 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'6'),
         },
@@ -226,12 +284,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 7 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'7'),
             3:doe.div({className:'key num7'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 18.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'7'),
         },
@@ -240,12 +302,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 8 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'8'),
             3:doe.div({className:'key num8'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 19.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'8'),
         },
@@ -254,12 +320,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 9 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'9'),
             3:doe.div({className:'key num9'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 20.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'9'),
         },
@@ -268,12 +338,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 10 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'0'),
             3:doe.div({className:'key num0'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 2 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 18.5 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'0'),
         },
@@ -282,12 +356,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 11 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'-'),
             3:doe.div({className:'key minus'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 21.5 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'-'),
         },
@@ -296,6 +374,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 12 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'='),
         },
@@ -304,6 +384,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 2 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 13 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'←'),
         },
@@ -312,6 +394,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1.5 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 0 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'TAB'),
         },
@@ -320,6 +404,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 1.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'Q'),
         },
@@ -328,6 +414,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 2.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'W'),
         },
@@ -336,6 +424,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 3.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'E'),
         },
@@ -344,6 +434,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 4.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'R'),
         },
@@ -352,6 +444,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 5.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'T'),
         },
@@ -360,6 +454,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 6.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'Y'),
         },
@@ -368,6 +464,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 7.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'U'),
         },
@@ -376,6 +474,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 8.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'I'),
         },
@@ -384,6 +484,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 9.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'O'),
         },
@@ -392,6 +494,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 10.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'P'),
         },
@@ -400,6 +504,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 11.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'['),
         },
@@ -408,6 +514,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 12.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },']'),
         },
@@ -416,6 +524,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1.5 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 13.5 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'\\'),
         },
@@ -424,6 +534,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1.75 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 0 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'CL'),
         },
@@ -432,6 +544,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 1.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'A'),
         },
@@ -440,6 +554,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 2.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'S'),
         },
@@ -448,6 +564,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 3.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'D'),
         },
@@ -456,6 +574,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 4.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'F'),
         },
@@ -464,6 +584,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 5.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'G'),
         },
@@ -472,6 +594,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 6.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'H'),
         },
@@ -480,6 +604,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 7.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'J'),
         },
@@ -488,6 +614,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 8.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'K'),
         },
@@ -496,6 +624,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 9.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'L'),
         },
@@ -504,6 +634,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 10.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },';'),
         },
@@ -512,6 +644,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 11.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'\''),
         },
@@ -520,26 +654,34 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 2.25 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 12.75 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'ENT'),
             3:doe.div({className:'key enter'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 2 * var(--scale))',
+                    left:   'calc(16px * 21.5 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'ENT'),
         },
         'Shift':{
             1:doe.div({className:'key shift0'},n=>{
                 doe(n.style,{
-                    width:'calc(16px * 2.25 * var(--scale))',
-                    height:'calc(16px * 1 * var(--scale))',
+                    width:  'calc(16px * 2.25 * var(--scale))',
+                    height: 'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 0 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'⇧'),
             2:doe.div({className:'key shift1'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 2.75 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 12.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'⇧'),
         },
@@ -548,6 +690,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 2.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'Z'),
         },
@@ -556,6 +700,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 3.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'X'),
         },
@@ -564,6 +710,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 4.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'C'),
         },
@@ -572,6 +720,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 5.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'V'),
         },
@@ -580,6 +730,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 6.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'B'),
         },
@@ -588,6 +740,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 7.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'N'),
         },
@@ -596,6 +750,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 8.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'M'),
         },
@@ -604,6 +760,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 9.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },','),
         },
@@ -612,12 +770,16 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 10.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'.'),
             3:doe.div({className:'key fullStop'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 20.5 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'.'),
         },
@@ -626,54 +788,70 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 11.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'/'),
             3:doe.div({className:'key slash'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 19.5 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'/'),
         },
         'Control':{
             1:doe.div({className:'key ctrl'},n=>{
                 doe(n.style,{
-                    width:'calc(16px * 1.25 * var(--scale))',
-                    height:'calc(16px * 1 * var(--scale))',
+                    width:  'calc(16px * 1.25 * var(--scale))',
+                    height: 'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 0 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'CTRL'),
             2:doe.div({className:'key ctrl'},n=>{
                 doe(n.style,{
-                    width:'calc(16px * 1.25 * var(--scale))',
-                    height:'calc(16px * 1 * var(--scale))',
+                    width:  'calc(16px * 1.25 * var(--scale))',
+                    height: 'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 13.75 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'CTRL'),
         },
         'Meta':{
             1:doe.div({className:'key meta'},n=>{
                 doe(n.style,{
-                    width:'calc(16px * 1.25 * var(--scale))',
-                    height:'calc(16px * 1 * var(--scale))',
+                    width:  'calc(16px * 1.25 * var(--scale))',
+                    height: 'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 1.25 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'META'),
             2:doe.div({className:'key meta'},n=>{
                 doe(n.style,{
-                    width:'calc(16px * 1.25 * var(--scale))',
-                    height:'calc(16px * 1 * var(--scale))',
+                    width:  'calc(16px * 1.25 * var(--scale))',
+                    height: 'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 11.25 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'META'),
         },
         'Alt':{
             1:doe.div({className:'key alt'},n=>{
                 doe(n.style,{
-                    width:'calc(16px * 1.25 * var(--scale))',
-                    height:'calc(16px * 1 * var(--scale))',
+                    width:  'calc(16px * 1.25 * var(--scale))',
+                    height: 'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 2.5 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'ALT'),
             2:doe.div({className:'key alt'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1.25 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 10 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'ALT'),
         },
@@ -682,6 +860,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 6.25 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 3.75 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'SPACE'),
         },
@@ -690,6 +870,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1.25 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 12.5 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'MENU'),
         },
@@ -698,6 +880,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 15.25 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'INS'),
         },
@@ -706,6 +890,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 16.25 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'HM'),
         },
@@ -714,6 +900,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 17.25 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'PU'),
         },
@@ -722,6 +910,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 15.25 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'DEL'),
         },
@@ -730,6 +920,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 16.25 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'END'),
         },
@@ -738,6 +930,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 17.25 * var(--scale))',
+                    bottom: 'calc(16px * 3 * var(--scale))',
                 })
             },'PD'),
         },
@@ -746,6 +940,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 16.25 * var(--scale))',
+                    bottom: 'calc(16px * 1 * var(--scale))',
                 })
             },'↑'),
         },
@@ -754,6 +950,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 15.25 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'←'),
         },
@@ -762,6 +960,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 16.25 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'↓'),
         },
@@ -770,6 +970,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 17.25 * var(--scale))',
+                    bottom: 'calc(16px * 0 * var(--scale))',
                 })
             },'→'),
         },
@@ -778,6 +980,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 18.5 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'NL'),
         },
@@ -786,6 +990,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 1 * var(--scale))',
+                    left:   'calc(16px * 20.5 * var(--scale))',
+                    bottom: 'calc(16px * 4 * var(--scale))',
                 })
             },'*'),
         },
@@ -794,6 +1000,8 @@ function createKeyNodes(){
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',
                     height:'calc(16px * 2 * var(--scale))',
+                    left:   'calc(16px * 21.5 * var(--scale))',
+                    bottom: 'calc(16px * 2 * var(--scale))',
                 })
             },'+'),
         }
