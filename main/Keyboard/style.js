@@ -2,8 +2,6 @@ export default`
     .keyboard{
         --scale:2;
         overflow:auto;
-        width:calc(422px * var(--scale));
-        background-color:#ddd;
         font-size:calc(6px * var(--scale));
     }
     .keyboard>.table{
@@ -34,8 +32,6 @@ export default`
     }
     .keyboard .key{
         display:inline-block;
-        width:calc(16px * var(--scale));
-        height:calc(16px * var(--scale));
         background-color:#fff;
         font-family:monospace;
         text-align:center;
@@ -95,7 +91,6 @@ export default`
     .keyboard .numpad>*>.key.plus{
         top:calc(16px * var(--scale));
         left:calc(48px * var(--scale));
-        height:calc(32px * var(--scale));
     }
     .keyboard .numpad>*>.key.num4{
         top:calc(32px * var(--scale));
@@ -124,12 +119,10 @@ export default`
     .keyboard .numpad>*>.key.enter{
         top:calc(48px * var(--scale));
         left:calc(48px * var(--scale));
-        height:calc(32px * var(--scale));
     }
     .keyboard .numpad>*>.key.num0{
         top:calc(64px * var(--scale));
         left:0;
-        width:calc(32px * var(--scale));
     }
     .keyboard .numpad>*>.key.fullStop{
         top:calc(64px * var(--scale));

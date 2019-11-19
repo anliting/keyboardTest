@@ -10,7 +10,7 @@ doe.head(
             box-sizing:border-box;
             margin:0 auto;
             min-height:100vh;
-            max-width:1000px;
+            max-width:800px;
             padding:8px;
             background-color:#fff;
         }
