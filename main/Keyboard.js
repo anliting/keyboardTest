@@ -7,7 +7,7 @@ function Keyboard(){
     this.node=createNode(this._keyNodes)
 }
 Keyboard.prototype._key=function(s){
-    console.log(performance.now(),s)
+    //console.log(performance.now(),s)
 }
 Keyboard.prototype.keydown=function(e){
     this._key(`keydown ${e.key} ${e.location}`)
