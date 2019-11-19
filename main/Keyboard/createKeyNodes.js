@@ -100,10 +100,18 @@ function createKeyNodes(){
             0:doe.div({className:'key equal'},'='),
         },
         Backspace:{
-            0:doe.div({className:'key backspace'},'←'),
+            0:doe.div({className:'key backspace'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 2 * var(--scale))'
+                })
+            },'←'),
         },
         Tab:{
-            0:doe.div({className:'key tab'},'TAB'),
+            0:doe.div({className:'key tab'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.5 * var(--scale))'
+                })
+            },'TAB'),
         },
         q:{
             0:doe.div({className:'key q'},'Q'),
@@ -142,10 +150,18 @@ function createKeyNodes(){
             0:doe.div({className:'key closedSquareBracket'},']'),
         },
         '\\':{
-            0:doe.div({className:'key backslash'},'\\'),
+            0:doe.div({className:'key backslash'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.5 * var(--scale))'
+                })
+            },'\\'),
         },
         'CapsLock':{
-            0:doe.div({className:'key capsLock'},'CL'),
+            0:doe.div({className:'key capsLock'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.75 * var(--scale))'
+                })
+            },'CL'),
         },
         'a':{
             0:doe.div({className:'key a'},'A'),
@@ -181,12 +197,24 @@ function createKeyNodes(){
             0:doe.div({className:'key apostrophe'},'\''),
         },
         'Enter':{
-            0:doe.div({className:'key enter'},'ENT'),
+            0:doe.div({className:'key enter'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 2.25 * var(--scale))'
+                })
+            },'ENT'),
             3:doe.div({className:'key enter'},'ENT'),
         },
         'Shift':{
-            1:doe.div({className:'key shift0'},'⇧'),
-            2:doe.div({className:'key shift1'},'⇧'),
+            1:doe.div({className:'key shift0'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 2.25 * var(--scale))'
+                })
+            },'⇧'),
+            2:doe.div({className:'key shift1'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 2.75 * var(--scale))'
+                })
+            },'⇧'),
         },
         'z':{
             0:doe.div({className:'key z'},'Z'),
@@ -221,22 +249,54 @@ function createKeyNodes(){
             3:doe.div({className:'key slash'},'/'),
         },
         'Control':{
-            1:doe.div({className:'key wide125 ctrl'},'CTRL'),
-            2:doe.div({className:'key wide125 ctrl'},'CTRL'),
+            1:doe.div({className:'key ctrl'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.25 * var(--scale))'
+                })
+            },'CTRL'),
+            2:doe.div({className:'key ctrl'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.25 * var(--scale))'
+                })
+            },'CTRL'),
         },
         'Meta':{
-            1:doe.div({className:'key wide125 meta'},'META'),
-            2:doe.div({className:'key wide125 meta'},'META'),
+            1:doe.div({className:'key meta'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.25 * var(--scale))'
+                })
+            },'META'),
+            2:doe.div({className:'key meta'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.25 * var(--scale))'
+                })
+            },'META'),
         },
         'Alt':{
-            1:doe.div({className:'key wide125 alt'},'ALT'),
-            2:doe.div({className:'key wide125 alt'},'ALT'),
+            1:doe.div({className:'key alt'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.25 * var(--scale))'
+                })
+            },'ALT'),
+            2:doe.div({className:'key alt'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.25 * var(--scale))'
+                })
+            },'ALT'),
         },
         ' ':{
-            0:doe.div({className:'key space'},'SPACE'),
+            0:doe.div({className:'key space'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 6.25 * var(--scale))'
+                })
+            },'SPACE'),
         },
         'ContextMenu':{
-            0:doe.div({className:'key wide125 menu'},'MENU'),
+            0:doe.div({className:'key menu'},n=>{
+                doe(n.style,{
+                    width:'calc(16px * 1.25 * var(--scale))'
+                })
+            },'MENU'),
         },
         'Insert':{
             0:doe.div({className:'key insert'},'INS'),

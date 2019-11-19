@@ -8,7 +8,6 @@ export default`
     }
     .keyboard>.table{
         display:table;
-        margin:calc(8px * var(--scale));
     }
     .keyboard>.table>*{
         display:table-row;
@@ -18,13 +17,13 @@ export default`
         vertical-align:top;
     }
     .keyboard>.table>*>:nth-child(2),.keyboard>.table>*>:nth-child(3){
-        padding-left:calc(8px * var(--scale));
+        padding-left:calc(4px * var(--scale));
     }
     .keyboard>.table>:nth-child(1)>*{
         height:calc(16px * var(--scale));
     }
     .keyboard>.table>:nth-child(2)>*{
-        padding-top:calc(8px * var(--scale));
+        padding-top:calc(4px * var(--scale));
         height:calc(88px * var(--scale));
     }
     .keyboard>.table>*>*>.row{
@@ -35,7 +34,6 @@ export default`
     }
     .keyboard .key{
         display:inline-block;
-        border-radius:1px;
         width:calc(16px * var(--scale));
         height:calc(16px * var(--scale));
         background-color:#fff;
@@ -48,9 +46,6 @@ export default`
         background-color:#000;
         color:#fff;
     }
-    .keyboard .key.wide125{
-        width:calc(20px * var(--scale));
-    }
     .keyboard>.table>*>.function>.function>.key.f1{
         margin-left:calc(16px * var(--scale));
     }
@@ -59,30 +54,6 @@ export default`
     }
     .keyboard>.table>*>.function>.function>.key.f9{
         margin-left:calc(16px * 0.5 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.backspace{
-        width:calc(16px * 2 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.tab{
-        width:calc(16px * 1.5 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.backslash{
-        width:calc(16px * 1.5 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.capsLock{
-        width:calc(16px * 1.75 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.enter{
-        width:calc(16px * 2.25 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.shift0{
-        width:calc(16px * 2.25 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.shift1{
-        width:calc(16px * 2.75 * var(--scale));
-    }
-    .keyboard>.table>*>.main>*>.key.space{
-        width:calc(16px * 6.25 * var(--scale));
     }
     .keyboard .key.arrowUp{
         margin-left:calc(16px * var(--scale));
