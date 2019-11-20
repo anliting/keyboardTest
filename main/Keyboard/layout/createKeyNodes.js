@@ -1,4 +1,4 @@
-import doe from '../../lib/doe/main/doe.mjs'
+import doe from '../../../lib/doe/main/doe.mjs'
 function createKeyNodes(){
     return{
         'Escape':{

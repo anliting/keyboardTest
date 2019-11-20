@@ -1,10 +1,8 @@
-import style from           './Keyboard/style.js'
-import createKeyNodes from  './Keyboard/createKeyNodes.js'
-import lowerKey from        './Keyboard/lowerKey.js'
-import createNode from      './Keyboard/createNode.js'
-function Keyboard(){
-    this._keyNodes=createKeyNodes()
-    this.node=createNode(this._keyNodes)
+import lowerKey from'./Keyboard/lowerKey.js'
+import layout from  './Keyboard/layout.mjs'
+function Keyboard(layout){
+    this._keyNodes=layout.createKeyNodes()
+    this.node=layout.createNode(this._keyNodes)
 }
 Keyboard.prototype._key=function(s){
     //console.log(performance.now(),s)
@@ -21,5 +19,5 @@ Keyboard.prototype.keyup=function(e){
     if(this._keyNodes[key]&&this._keyNodes[key][e.location])
         this._keyNodes[key][e.location].classList.remove('keydown')
 }
-Keyboard.style=style
+Keyboard.layout=layout
 export default Keyboard
