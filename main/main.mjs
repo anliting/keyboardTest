@@ -28,7 +28,6 @@ let
     s=new DecalarativeSet
 doe.body(
     main=doe.div({className:'main'},
-        doe.p('This program tests a keyboard and its environment.'),
         doe.p(
             doe.select(
                 {oninput(){
