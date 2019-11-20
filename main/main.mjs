@@ -33,6 +33,7 @@ doe.body(
                 {oninput(){
                     s.out(current)
                     s.in(current=this.value)
+                    document.activeElement.blur()
                 }},
                 Object.entries(Keyboard.layout).map(([k,v])=>
                     doe.option({

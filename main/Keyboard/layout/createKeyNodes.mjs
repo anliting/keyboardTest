@@ -131,7 +131,7 @@ function createKeyNodes(){
                 })
             },'F12'),
         },
-        'Print':{
+        'PrintScreen':{
             0:doe.div({className:'key'},n=>{
                 doe(n.style,{
                     width:'calc(16px * 1 * var(--scale))',

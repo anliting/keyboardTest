@@ -81,7 +81,7 @@ function createNode(keyNodes){
         keyNodes.F10[0],
         keyNodes.F11[0],
         keyNodes.F12[0],
-        keyNodes.Print[0],
+        keyNodes.PrintScreen[0],
         keyNodes.ScrollLock[0],
         keyNodes.Pause[0],
         keyNodes.ArrowLeft[0],
