@@ -23,7 +23,7 @@ doe.head(
     style=doe.style(),
 )
 let
-    main,readme,
+    main,
     current='ansiQwerty',
     s=new DecalarativeSet
 doe.body(
@@ -39,9 +39,8 @@ doe.body(
                         value:k,
                     },v.name)
                 )
-            )
-        ),
-        readme=doe.p(
+            ),
+            ' ',
             doe.a({href:'https://anliting.com/keyboardTest'},'Readme'),
         ),
     ),
@@ -51,11 +50,11 @@ s.forEach={
     in(e){
         doe(style,Keyboard.layout[e].style)
         kb=new Keyboard(Keyboard.layout[e])
-        main.insertBefore(kb.node,readme)
+        doe(main,kb.node)
     },
     out(e){
         doe(style,{innerHTML:''})
-        main.removeChild(kb.node)
+        doe(main,1,kb.node)
     },
 }
 s.in(current)
