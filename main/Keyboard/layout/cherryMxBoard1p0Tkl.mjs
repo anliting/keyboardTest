@@ -1,6 +1,6 @@
 import style from               './style.js'
 import createNode from          './cherryMxBoard1p0Tkl/createNode.js'
-import createKeyNodes from      './createKeyNodes.js'
+import createKeyNodes from      './createKeyNodes.mjs'
 let cherryMxBoard1p0Tkl={
     name:'Cherry MX Board 1.0 TKL',
     createKeyNodes,

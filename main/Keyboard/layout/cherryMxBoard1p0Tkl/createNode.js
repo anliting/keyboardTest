@@ -3,7 +3,7 @@ function createNode(keyNodes){
     return doe.div({className:'keyboard'},
         n=>{
             doe(n.style,{
-                width:'calc(16px * 22.5 * var(--scale))',
+                width:'calc(16px * 18.25 * var(--scale))',
                 height:'calc(16px * 6.25 * var(--scale))',
             })
             n.style.setProperty('--scale','2')

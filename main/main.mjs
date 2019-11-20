@@ -32,10 +32,8 @@ doe.body(
         doe.p(
             doe.select(
                 {oninput(){
-console.log(current)
                     s.out(current)
                     s.in(current=this.value)
-console.log(current)
                 }},
                 Object.entries(Keyboard.layout).map(([k,v])=>
                     doe.option({
