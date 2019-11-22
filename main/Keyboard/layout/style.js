@@ -12,11 +12,15 @@ export default`
         font-family:monospace;
         text-align:center;
         border-style:solid;
-        border-width:calc(1.5px * var(--scale));
+        border-width:
+            calc(1px * var(--scale))
+            calc(2px * var(--scale))
+            calc(3px * var(--scale))
+        ;
         border-top-color:#aaa;
         border-left-color:#aaa;
-        border-right-color:#444;
-        border-bottom-color:#444;
+        border-right-color:#666;
+        border-bottom-color:#666;
         box-sizing:border-box;
     }
     .keyboard .key.keydown{
